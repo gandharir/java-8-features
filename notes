@@ -1,0 +1,21 @@
+interface Animal {
+    void name();
+}
+
+
+class Dog implements Animal {
+    void name() {
+        System.out.println("Dog");
+    }
+}
+
+public class Demo {
+    public static void main(String[] args) {
+        Animal a1 = new Dog();
+        Animal a2 = new Animal() {
+              void name() {
+                System.out.println("Anonymous Animal");
+              }
+        };
+    }
+ }

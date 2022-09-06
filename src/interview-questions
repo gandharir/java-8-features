@@ -1,0 +1,4 @@
+Q) What is Functional Interface?
+An interface which has only one abstract method is called functional interface.
+Q) Name the main feature of Java8.
+Java8 supports functional programming through lambda.
